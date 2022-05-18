@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/ecommerce-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/mobile-style.css"/>
+    <link rel="stylesheet" href="./styles/desktop-style.css" media="(min-width: 830px)"/>
+    <link rel="stylesheet" href="./styles/normaliza.css">
+    <script src="./jquery/jquery-3.6.0.min.js"></script>
+
+    <!-- link de la librería slick -->
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
+
+    <!-- Link de la librería animate css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>E-commerce</title>
+</head>
+<body>
+    <header class="header__container">
+        <div class="header__left">
+            <span class="header__left--menu"></span>
+            <img src="./images/logo.svg" alt="logo" class="header__left__logo">
+        </div>
+        <div class="header__right">
+            <div class="header__right__cart--count">
+                <span class="header__right--cart"></span>
+                <span class="header__right--count"></span>
+            </div>
+            <img src="./images/image-avatar.png" alt="avatar" class="header__right__avatar"> 
+            <section class="cart-container cart-container1">
+                    <div class="cart__title">
+                        <h2>Cart</h2>
+                        <span class="cart--close-button"></span>
+                    </div>
+                    <section class="cart__description">
+                        <div class="cart__product">
+                            <img src="./images/image-product-1-thumbnail.jpg" alt="article preview" class=""/>
+                            <div class="cart__shoes-description">
+                                <p>Autumn Limited Edition...</p>
+                                <div class="price">
+                                    <p>
+                                        $125.00 x <span id="price__count"></span>
+                                        <span id="price__finish"></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <span class="cart__trash-can"></span>
+                        </div>
+                        <div class="cart__checkout">
+                            <button class="cart__checkout--button">Checkout</button>
+                        </div>
+                    </section>
+            </section>
+            <section class="cart-container cart-container2">
+                    <div class="cart__title">
+                        <h2>Cart</h2>
+                        <span class="cart--close-button"></span>
+                    </div>
+                    <section class="cart__empty">
+                        <h2 class="cart__empty-text">Your cart is empty.</h2>
+                    </section>
+            </section>
+        </div>
+        <section class="menu__container">
+        </section>
+        <div class="navbar__container">
+            <span class="navbar--close-button"></span>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">Collections</li>
+                    <li class="navbar__item">Men</li>
+                    <li class="navbar__item">Women</li>
+                    <li class="navbar__item">About</li>
+                    <li class="navbar__item">Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main-carrousel">
+            <span class="carrousel--next-arrow"></span>
+            <section class="carrousel__container slider-for">
+                <div class="carrousel__image-container">
+                <img src="./images/image-product-1.jpg" alt="product image" class="carrousel__product-image"/>
+                </div>
+                <div class="carrousel__image-container">
+                    <img src="./images/image-product-2.jpg" alt="product image" class="carrousel__product-image"/>
+                </div>
+                <div class="carrousel__image-container">
+                    <img src="./images/image-product-3.jpg" alt="product image" class="carrousel__product-image"/>
+                </div>
+                <div class="carrousel__image-container">
+                    <img src="./images/image-product-4.jpg" alt="product image" class="carrousel__product-image"/>
+                </div>
+            </section>
+            <span class="carrousel--preview-arrow"></span>
+            <section class="carrousel__container-thumbnail slider-nav">
+                <div class="carrousel__image-container-thumbnail">
+                <img src="./images/image-product-1-thumbnail.jpg" alt="product image" class="carrousel__product-image-thumbnail" />
+                </div>
+                <div class="carrousel__image-container-thumbnail">
+                    <img src="./images/image-product-2-thumbnail.jpg" alt="product image" class="carrousel__product-image-thumbnail"/>
+                </div>
+                <div class="carrousel__image-container-thumbnail">
+                    <img src="./images/image-product-3-thumbnail.jpg" alt="product image" class="carrousel__product-image-thumbnail"/>
+                </div>
+                <div class="carrousel__image-container-thumbnail">
+                    <img src="./images/image-product-4-thumbnail.jpg" alt="product image" class="carrousel__product-image-thumbnail" />
+                </div>
+            </section>
+        </section>
+        <section class="container">
+            <section class="description__container">
+                <h2>SNEAKER COMPANY</h2>
+                <div class="description__text">
+                    <h1>Fall Limited Edition Sneakers</h1>
+                    <p>These low-profile sneakers are you perfect casual wear companion. Featuring a durable rubber outer sole, they'll withsrand everything the weather can offer. </p>
+                </div>
+            </section>
+            <section class="price__container">
+                <div class="price__sale">
+                    <span class="price__sale-now">$125.00</span>
+                    <span class="price__sale-discount">50%</span>
+                </div>
+                <span class="price__original"><del>$250.00</del></span>
+            </section>
+            <div class="main__product__counter">
+                <section class="counter__container">
+                    <span class="counter--minus"></span>
+                    <div class="counter__display">
+                    </div>
+                    <span class="counter--plus"></span>
+                </section>
+                <section class="button__container">
+                    <div class="cart__container">
+                        <span class="cart__icon"></span>
+                        <span class="cart__text">Add to cart</span>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <script src="./js/index.js"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+</body>
+</html>
