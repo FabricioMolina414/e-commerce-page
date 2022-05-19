@@ -25,14 +25,14 @@ Además de las tecnologías mencionadas, también se incorporaron dos librerías
 - Para el slider de las imágenes se utilizó la librería [Slick](https://kenwheeler.github.io/slick/).
 ## Funcionamiento ⚙️
 
-- Secciones
+- **Secciones:**
 En la página podríamos elegir la sección a la cual nos queremos dirigir. En este proyecto sólo se 
 genera el efecto de selección pero al hacer clic sobre algunas de estas, no ingresa a ningún lado.
 
 [![ecommerce-page-section.png](https://i.postimg.cc/qvB0mxww/ecommerce-page-section.png)](https://postimg.cc/2VtPyvPL)
 
 
-- Funcionamiento del contador
+- **Funcionamiento del contador:**
 En el contador podemos aumentar la cantidad de unidades del producto que queremos hasta llegar al límite 
 de stock, que para este proyecto se eligió un stock igual a 9.
 También podemos disminuir la cantidad de unidades del producto hasta llegar a 0. Esto se logra presionando los 
@@ -40,7 +40,7 @@ símbolos de ➕ para aumentar las unidades y ➖ para disminuirlas.
 
 [![ecommerce-page-contador.png](https://i.postimg.cc/rpXPz8HH/ecommerce-page-contador.png)](https://postimg.cc/RWdRDz41)
 
-- Agregar al carrito 
+- **Agregar al carrito:** 
 Una vez que se haya seleccionado la cantidad de unidades deseadas, podemos agregar el 
 pedido al carrito presionando el botón _**Add to cart**_. Una vez hecho esto, nos aparecerá el 
 número de productos seleccionados en el ícono del carrito que se encuentra en la parte 
@@ -51,7 +51,7 @@ sea 0, no se mostrará ningún número sobre el ícono del carrito.
 [![ecommerce-page-cart-full.png](https://i.postimg.cc/dt8v3WQQ/ecommerce-page-cart-full.png)](https://postimg.cc/vcHCSt6C)
 _Este es un ejemplo dónde se presionó el botón de **Add to cart** y el valor del contador era 4._
 
-- Funcionamiento del carrito
+- **Funcionamiento del carrito:**
 Una vez que se agregararon las unidades del producto al carrito, podemos previsualizar si se 
 cargaron correctamente la cantidad elegida y además podemos ver el monto total. Esto lo 
 logramos haciendo clic sobre el ícono del carrito.
