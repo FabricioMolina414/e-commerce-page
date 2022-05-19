@@ -49,6 +49,8 @@ En el caso que se presione el botón de _**Add to cart**_ y el valor del contado
 sea 0, no se mostrará ningún número sobre el ícono del carrito. 
 
 [![ecommerce-page-cart-full.png](https://i.postimg.cc/dt8v3WQQ/ecommerce-page-cart-full.png)](https://postimg.cc/vcHCSt6C)
+
+
 _Este es un ejemplo dónde se presionó el botón de **Add to cart** y el valor del contador era 4._
 
 - **Funcionamiento del carrito:**
@@ -59,14 +61,18 @@ En el caso de que se haga clic sobre el ícono y
 no haya productos seleccionados, se mostrará el mensaje _**Your cart is empty.**_
 
 [![ecommerce-page-cart-empty.png](https://i.postimg.cc/PrLp7nM3/ecommerce-page-cart-empty.png)](https://postimg.cc/HVgkJKRX)
+
+
 _Este es un ejemplo cuando el carrito está vacío._
 
 [![ecommerce-page-cart-full2.png](https://i.postimg.cc/cLvJHRzF/ecommerce-page-cart-full2.png)](https://postimg.cc/BjG37K4F)
+
+
 _Este es un ejemplo cuando el carrito tiene algún producto seleccionado._
 
 
 Cómo vemos en la última imagen, cuando el carrito tiene algún producto, este se puede eliminar 
-del carrito haciendo clic sobre el ícono del cesto de basura. 
+del mismo haciendo clic sobre el ícono del cesto de basura. 
 También cuenta con un botón de 
 _**Checkout**_ el cual simularía que se va a redirigir a otra página para finalizar la compra. Sin 
 embargo, en este proyecto no ejecuta ninguna acción. 
