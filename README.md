@@ -62,11 +62,9 @@ no haya productos seleccionados, se mostrará el mensaje _**Your cart is empty.*
 
 [![ecommerce-page-cart-empty.png](https://i.postimg.cc/PrLp7nM3/ecommerce-page-cart-empty.png)](https://postimg.cc/HVgkJKRX)
 
-
 _Este es un ejemplo cuando el carrito está vacío._
 
 [![ecommerce-page-cart-full2.png](https://i.postimg.cc/cLvJHRzF/ecommerce-page-cart-full2.png)](https://postimg.cc/BjG37K4F)
-
 
 _Este es un ejemplo cuando el carrito tiene algún producto seleccionado._
 
